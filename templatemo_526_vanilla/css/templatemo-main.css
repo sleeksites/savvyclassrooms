@@ -6,6 +6,11 @@ https://templatemo.com/tm-526-vanilla
 
 */
 
+:root {
+  --blue: #1a73cc;
+ --hover_blue:  #238ef8;
+}
+
 p {
   font-size: 15px;
   line-height: 25px;
@@ -458,7 +463,7 @@ footer ul li a {
   line-height: 40px;
   text-align: center;
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: var(--blue);
   color: #282b2f;
   border-radius: 50%;
   text-decoration: none;
@@ -468,7 +473,7 @@ footer ul li a {
 
 footer ul li a:hover {
   color: #282b2f;
-  background-color: #ff8e43;
+  background-color: var(--hover_blue);
 }
 
 footer p {
